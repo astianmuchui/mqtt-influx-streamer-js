@@ -1,4 +1,4 @@
-# MQTT TO INFLUXDB STREAMING LIBRARY
+# MQTT TO INFLUXDB STREAMING
 This is a simple library to help you stream your IoT data from mqtt to influxDB.
 
 ## Usage
