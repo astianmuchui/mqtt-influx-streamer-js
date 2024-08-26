@@ -1,7 +1,10 @@
 # MQTT TO INFLUXDB STREAMING
-This is a simple library to help you stream your IoT data from mqtt to influxDB.
+
+Node.js accessory code that receives mqtt data and stores it in influxdb data buckets.
 
 ## Usage
+
+
 First, create a ```.env``` file in your project from the ```.env.sample``` provided above then populate the variables
 
 ```sh
@@ -12,6 +15,7 @@ The general usage is as follows
 
 ```js
 import Streamer from "path/to/main.js"
+
 const my_mqtt_config = {
     url: process.env.BROKER_URL,
     username: process.env.MQTT_USERNAME,
